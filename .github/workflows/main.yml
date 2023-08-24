@@ -4,6 +4,6 @@ on: [push]
 jobs:
   call-pipeline:
   # Indica que voy a llamar uses: organizacion/repositorio/ruta_main.yml/version_o_rama
-    uses: juliotabilo/devops-pipeline/.github/workflows/main.yml@fea}ture-pipeline
+    uses: juliotabilo/devops-pipeline/.github/workflows/main.yml@feature-pipeline
     secrets: inherit
   
